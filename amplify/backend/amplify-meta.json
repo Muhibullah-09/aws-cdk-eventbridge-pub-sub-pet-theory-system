@@ -1,0 +1,34 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pubsubfrontend-dev-10914-authRole",
+            "UnauthRoleArn": "arn:aws:iam::580656575244:role/amplify-pubsubfrontend-dev-10914-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::580656575244:role/amplify-pubsubfrontend-dev-10914-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-pubsubfrontend-dev-10914-deployment",
+            "UnauthRoleName": "amplify-pubsubfrontend-dev-10914-unauthRole",
+            "StackName": "amplify-pubsubfrontend-dev-10914",
+            "StackId": "arn:aws:cloudformation:us-east-2:580656575244:stack/amplify-pubsubfrontend-dev-10914/8b5415a0-60db-11eb-844d-0aa9b0a3d4e0",
+            "AmplifyAppId": "d31lbbd7fjzl9f"
+        }
+    },
+    "api": {
+        "appsyncPettheorysystem": {
+            "service": "AppSync",
+            "output": {
+                "authConfig": {
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY"
+                    },
+                    "additionalAuthenticationProviders": null
+                },
+                "GraphQLAPIIdOutput": "krg6tb4wybfwvdbg6dki4ojf44",
+                "GraphQLAPIEndpointOutput": "https://dhwv6teyqfhiviej4ubkf3ys2m.appsync-api.us-east-2.amazonaws.com/graphql",
+                "name": "appsyncPettheorysystem",
+                "region": "us-east-2",
+                "GraphQLAPIKeyOutput": "da2-frod3tjd5reazaxy7gw6gzz6ri"
+            },
+            "lastPushTimeStamp": "2021-01-27T20:10:22.470Z"
+        }
+    }
+}
